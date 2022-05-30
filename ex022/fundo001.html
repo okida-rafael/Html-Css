@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        div.quadrado{
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.582);
+            margin: 10px;
+        }
+        div#q1{
+            background-color: lightblue;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red );
+        }
+        div#q3{
+            background-image: url(imagens/pattern001.png);
+        }
+        p{
+            color: white;
+            font-size: 1.3em;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px 2px rgb(0, 0, 0);
+            margin: 15px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, beatae commodi ex, consequatur aliquid, deleniti asperiores culpa repudiandae rerum dolores debitis accusamus voluptatibus non ab perspiciatis provident libero odio accusantium!</p>
+    </div>
+    <div class="quadrado" id="q2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ducimus illo obcaecati. Officiis quod quibusdam expedita incidunt ipsum sapiente molestias voluptas fugiat perspiciatis, illo laboriosam ea, harum aliquam, magni eius!</p>
+    </div>
+    <div class="quadrado" id="q3">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil vero quae, assumenda dignissimos reprehenderit ad quasi voluptates optio aliquid ex repellendus, doloremque eos? Deleniti soluta illo, architecto facere consectetur praesentium?</p>
+    </div>
+</body>
+</html>
