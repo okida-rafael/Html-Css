@@ -1,0 +1,35 @@
+.gradient{
+    width: 500px;
+    height: 80px;
+    position: relative;
+    margin: 20px;
+}
+
+.grad1{
+    background-image: linear-gradient(purple, blue);
+}
+.grad2{
+    background-image: linear-gradient(to right, purple, blue);
+}
+.grad3{
+    background-image: linear-gradient(to left, purple, blue);
+}
+.grad4{
+    background-image: linear-gradient(to top, purple, blue);
+}
+.grad5{
+    background-image: linear-gradient(to top right, purple, blue);
+}
+
+.grad6{
+    background-image: linear-gradient(to top right, purple, white, blue);
+}
+.grad7{
+    background-image: radial-gradient(red, green, white, black);
+}
+.grad8{
+    background-image: radial-gradient(red 10%, green 30%, white 40%, black);
+}
+.grad9{
+    background-image: radial-gradient(circle, red, green, white, black);
+}

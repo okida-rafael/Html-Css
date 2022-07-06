@@ -1,0 +1,73 @@
+@keyframes animacao {
+    from    {background-color: red;}
+    to {background-color: yellow;}
+}
+
+h1{
+    background-color: red;
+    animation-name: animacao;
+    animation-duration: 5s;
+}
+
+@keyframes passos {
+    0% {}
+    10% {background-color: blue;
+        color: white;
+        font-size: larger;
+        text-align: center;
+        }
+    50% {
+        background-color: darkgray;    
+        color: white;     
+        }
+    80% {
+        background-color: darkgreen;
+        text-align: right;
+        color: white;
+    }    
+    100% {
+        background-color: black;
+        text-align: left;
+        color: white;
+    }
+}
+
+p{
+    animation-name: passos;
+    animation-duration: 7s;
+    animation-delay: 2s; /*demora 2 segundos para executar essa animação*/
+	animation-iteration-count: infinite; /*a animação vai ficar rodando pra sempre ou pode
+colocar qnts vezes quer que ela rode*/
+}
+
+@keyframes velocidades{
+    from {left: 0;}
+    to {left: 500px;}
+}
+
+.paragrafo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: velocidades;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+#para1{
+    animation-timing-function: linear;
+}
+#para2{
+    animation-timing-function: ease;
+}
+#para3{
+    animation-timing-function: ease-in;
+}
+#para4{
+    animation-timing-function: ease-out;
+}
+#para5{
+    animation-timing-function: ease-in-out;
+}
+
