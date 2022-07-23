@@ -1,0 +1,155 @@
+/* Geral */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Topo */
+
+#secao-topo{
+    background-color: #afddfb;
+    
+}
+#secao-topo img{
+    width: 150px;
+}
+#secao-topo p{
+    font-size: 18px;
+    color: #1d1d1d;
+
+}
+#secao-topo a{
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+}
+
+/* Banner */
+
+#secao-banner img{
+    width: 90%;
+}
+
+/* Sobre */
+
+#secao-sobre h1{
+    font-size: 36px;
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+#secao-sobre h2{
+    color :#1c81c0;
+}
+
+#secao-sobre img{
+    width: 450px;
+}
+#secao-sobre p{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+#secao-sobre span{
+    color: #1d80c1;
+    font-weight: bold;
+}
+
+/* Serviços */
+
+#secao-servicos{
+    background-color: #1d80c1;
+}
+#secao-servicos h3{
+    color: #fff;
+    font-size: 28px;
+    line-height: 42px;
+}
+#secao-servicos p{
+    margin: auto;
+    width: 700px;
+    color: #fff;
+    line-height: 42px;
+    font-size: 22px;
+}
+#secao-servicos span{
+    font-weight: bold;
+    color: #fff81b;
+}
+#secao-servicos li{
+    color: #fff;
+    width: 135px;
+    margin: auto;
+    text-align: left;
+    font-size: 22px;
+    line-height: 42px;
+
+}
+
+/* Corretores */
+
+#secao-corretores h3{
+    color: #1d80c1;
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+#secao-corretores img{
+    width: 450px;
+    margin-bottom: 20px;
+}
+#secao-corretores p{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+#secao-corretores span{
+    color: #1d80c1;
+    font-weight: bold;
+}
+
+/* Contato */
+
+#secao-contato{
+    background-color: #1d80c1;
+}
+
+#secao-contato h3{
+    color: #fff;
+    font-size: 28px;
+    line-height: 42px;
+}
+#secao-contato iframe{
+    width: 800px;
+    height: 300px;
+    margin-bottom: 20px;
+} 
+#secao-contato p{
+    background-color: #1d1d1d;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#secao-contato span{
+    color: #fff81b;
+    font-weight: bold;
+}
+#secao-contato a{
+    color: #1d80c1;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 2px;
+}
+#secao-contato li{
+    margin: 10px auto;
+    width: 210px;
+}
