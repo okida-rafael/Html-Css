@@ -18,6 +18,12 @@
     width: 800px;
     margin: auto;
 }
+.fundo{
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 
 /* Header */
@@ -77,4 +83,59 @@ header h1{
     border-radius: 20px;
     padding: 0 2px;
 
+}
+
+.sec-atuacao{
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+}
+.sec-atuacao h3{
+    padding: 10px;
+}
+.sec-atuacao p{
+    padding: 5px;
+}
+
+.sec-atuacao li{
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+}
+
+/* Contato */
+
+
+.head-contato{
+    height: 60px;
+    padding: 20px 0;
+    text-align: center;
+   
+}
+
+.head-contato h3{
+    background-color: #fff;
+    width: 80px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 0 2px;
+
+}
+
+.sec-contato{
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+}
+.sec-contato li{
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+}
+.sec-contato h3{
+    padding: 10px;
+}
+
+a{
+    background-attachment: fixed;
 }
